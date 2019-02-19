@@ -7,7 +7,7 @@ A game for the FBLA event "Computer Game &amp; Simulation Programming" created b
 
 [Running the Game]()
 
-[Topics and Question Bank]()
+[Topics, Randomization, and Question Bank]()
 
 [A Challenging but Fun Shooter]()
 
