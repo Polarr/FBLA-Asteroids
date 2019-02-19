@@ -5,20 +5,20 @@ A game for the FBLA event "Computer Game &amp; Simulation Programming" created b
 
 # Table of Contents:
 
-[Running the Game](LINK HERE)
+[Running the Game]()
 
-[Topics and Question Bank](LINK HERE)
+[Topics and Question Bank]()
 
-[A Challenging but Fun Shooter](LINK HERE)
+[A Challenging but Fun Shooter]()
 
 [How the Game Teaches FBLA]()
 
 [Multiplayer]()
 
-[C# and Multiplatform Support](LINK HERE)
+[C# and Multiplatform Support]()
 
-[Viewing Code](LINK HERE)
+[Viewing Code]()
 
-[Building Code](LINK HERE)
+[Building Code]()
 
-[Code Commenting](LINK HERE)
+[Code Commenting]()
