@@ -1,7 +1,7 @@
 # FBLA-Asteroids
 A game for the FBLA event "Computer Game &amp; Simulation Programming" created by Yu Lei Li, Yuanyang Lu, and Sai Sakhamuri.
 
-![alt text](https://cdn.discordapp.com/attachments/380481535641387009/547217523184107551/icons8-next-page-64.png)
+![alt text](https://cdn.discordapp.com/attachments/380481535641387009/547217523184107551/icons8-next-page-64.png?width=234&height=468)
 
 # Table of Contents:
 
