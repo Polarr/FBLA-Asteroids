@@ -41,4 +41,4 @@ To ensure that the questions are random on each run of the levels, we use UnityE
 # A Challenging but Fun Shooter
 The game can be completed extremely fast, however, that is if you know all of the questions ahead of time. The goal of the game is to teach the user about FBLA, but to also provide a challenge in dodging projectiles along the way. While inexperienced users can take 5+ tries, a more experienced user can complete the game in under 5 minutes.
 
-<iframe width="1195" height="672" src="https://www.youtube.com/embed/SQlu2h6KOTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://i.gyazo.com/5fb61069b1671d18096f779f2999636f.png)](https://www.youtube.com/embed/SQlu2h6KOTA)
