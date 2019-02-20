@@ -28,4 +28,4 @@ A game for the FBLA event "Computer Game &amp; Simulation Programming" created b
 # Running the Game
 To run the game, download everything from github and extract to a folder. Open the shortcut titled "FBLA_Asteroids", if that does not work, open the "MARYLAND_DULANEY HIGH SCHOOL" folder, and open "FBLA_Asteroids.exe".
 
-<img src="https://gyazo.com/5fb61069b1671d18096f779f2999636f">
+<img src="https://i.gyazo.com/5fb61069b1671d18096f779f2999636f.png">
