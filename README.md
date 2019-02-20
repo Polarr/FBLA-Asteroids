@@ -13,15 +13,15 @@ A game for the FBLA event "Computer Game &amp; Simulation Programming" created b
 
 [A Challenging but Fun Shooter](https://github.com/Polarr/FBLA-Asteroids#a-challenging-but-fun-shooter)
 
-[Multiplayer]()
+[Multiplayer](https://github.com/Polarr/FBLA-Asteroids#multiplayer)
 
-[C# and Multiplatform Support]()
+[C# and Multiplatform Support](https://github.com/Polarr/FBLA-Asteroids#c-and-multiplatform-support)
 
-[Viewing Code]()
+[Viewing Code](https://github.com/Polarr/FBLA-Asteroids#viewing-code)
 
-[Building Code]()
+[Building Code](https://github.com/Polarr/FBLA-Asteroids#building-code)
 
-[Code Commenting]()
+[Code Commenting](https://github.com/Polarr/FBLA-Asteroids#code-commenting)
 
 # Running the Game
 To run the game, download everything from github and extract to a folder. Open the shortcut titled "FBLA_Asteroids", if that does not work, open the "MARYLAND_DULANEY HIGH SCHOOL" folder, and open "FBLA_Asteroids.exe". Make sure to read the instructions before playing.
