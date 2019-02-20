@@ -32,7 +32,8 @@ To run the game, download everything from github and extract to a folder. Open t
 To exit the game, simply return to the main menu, all menus have a back button, however, if you are in game, you can return to the main menu by pressing escape.
 
 # Topics, Randomization, and Question Bank
-To ensure that the questions are random on each run of the levels, we use UnityEngine.Random to generate random question from a bank. The bank can be viewed here (Note: it is missing 2 questions from the first level, however, the rest of the questions are there). https://bcpscloud-my.sharepoint.com/:w:/g/personal/ss407_bcps_org/EaGuM0MkvC1FmeuhWUFv-kUB29EPaQgmY0C5yCnp9PsUOQ?e=ceHel7
+To ensure that the questions are random on each run of the levels, we use UnityEngine.Random to generate random question from a bank. The bank can be viewed here (Note: it is missing some questions, but a majority of the questions are there).
+[Document](https://bcpscloud-my.sharepoint.com/:w:/g/personal/ss407_bcps_org/EaGuM0MkvC1FmeuhWUFv-kUB29EPaQgmY0C5yCnp9PsUOQ?e=ceHel7)
 
 <img src="https://i.gyazo.com/40f59ddc0d18813892537f556ff1dc28.png">
 
