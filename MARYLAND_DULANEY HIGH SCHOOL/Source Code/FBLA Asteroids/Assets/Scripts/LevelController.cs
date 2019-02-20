@@ -24,51 +24,50 @@ public class LevelController : MonoBehaviour
         questionsToAsk = new List<Question>();
         enemies = new List<GameObject>();
 
-        for (int x = 0; x < numWaves; x++){
-            Question q = questions[UnityEngine.Random.Range(0, questions.Count)];
-            while (questionsToAsk.Contains(q)){
+        for (int x = 0; x < numWaves; x++){ //for each wave
+            Question q = questions[UnityEngine.Random.Range(0, questions.Count)]; //generate a random question
+            while (questionsToAsk.Contains(q)){ //make sure that the question has not been added yet
                 q = questions[UnityEngine.Random.Range(0, questions.Count)];
             }
-            questionsToAsk.Add(q);
+            questionsToAsk.Add(q); //add it
         }
 
-        SetQuestion(false);
+        SetQuestion(false); //put the first question on the question board
     }
 
     private void Update(){
         if (Input.GetKeyDown(KeyCode.Escape))
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(0); //load the menu if the user presses escape
     }
 
     public void SetQuestion(bool isTrue){
         if (isTrue){
             questionText.text = "Correct!";
-            //yield return new WaitForSeconds(0);
         }
         if (questionsToAsk.Count > 0){
-            enemies.Clear();
+            enemies.Clear(); //clear the enemies first
 
-            Question q = questionsToAsk[0];
+            Question q = questionsToAsk[0]; //new question
 
-            for (int x = 0; x < waves[questions.IndexOf(q)].enemies.Count; x++){
+            for (int x = 0; x < waves[questions.IndexOf(q)].enemies.Count; x++){ //instantiate all of the enemies from that question's wave
 
                 var e = Instantiate(waves[questions.IndexOf(q)].enemies[x].prefab, position: new Vector2(0, 12), rotation: Quaternion.identity);
                 e.GetComponent<IEnemyController>().OnSpawn(waves[questions.IndexOf(q)].enemies[x].position, q.answers[x], waves[questions.IndexOf(q)].enemies[x].health, x == q.answerIndex);
 
-                enemies.Add(e);
+                enemies.Add(e); //add them to the enemies
             }
 
-            questionText.text = q.question;
+            questionText.text = q.question; //change the text up top
         }
-        else{
-                PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
+        else{ //if there are no more questions
+                PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1); //set the level to complete
 
             if (PlayerPrefs.GetInt("Level 1") == 1 && PlayerPrefs.GetInt("Level 2") == 1 && PlayerPrefs.GetInt("Level 3") == 1 && PlayerPrefs.GetInt("Level 4") == 1 && PlayerPrefs.GetInt("Level 5") == 1)
             {
-                SceneManager.LoadScene(11);
+                SceneManager.LoadScene(11); //if you've beaten all levels, you can enter the hall of fame
             }
             else
-                SceneManager.LoadScene(10);
+                SceneManager.LoadScene(10); //if you haven't go back to level select and beat them!
         }
     }
 }
